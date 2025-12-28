@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: online-shop
-        image: amitabhdevops/online_shop:latest
+        image: https://github.com/nafees00007/argocd-demos.git
         ports:
         - containerPort: 3000
         resources:
